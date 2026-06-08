@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Next.js Build Output
+.next/
+out/
+
+# Production Build Output
+build/
+
+# Local Environment Variables and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
