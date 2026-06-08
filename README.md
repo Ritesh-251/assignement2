@@ -64,46 +64,4 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser to interact with the MVP.
 
----
 
-## 🔑 How to Get a Gemini API Key
-
-1. Go to the [Google AI Studio Console](https://aistudio.google.com/).
-2. Sign in with your Google account.
-3. Click on the **"Get API key"** button in the left sidebar.
-4. Click **"Create API key"** and choose to associate it with a new or existing Google Cloud project.
-5. Copy the generated key and paste it into your `.env.local` file as `GEMINI_API_KEY`.
-
----
-
-## 📤 How to Upload to Your GitHub
-
-Follow these steps to upload this codebase to your own GitHub profile:
-
-### Step 1: Initialize Git and Commit
-In your terminal, run:
-```bash
-git init
-git add .
-git commit -m "feat: complete TDC Matchmaker Dashboard & Algo MVP"
-```
-
-### Step 2: Create a New Repository on GitHub
-1. Log in to [GitHub](https://github.com/).
-2. Click **"New"** (or the **"+"** icon in the top right, then **New repository**).
-3. Set your repository name (e.g. `tdc-matchmaker-dashboard`) and description.
-4. Leave "Add a README", "Add .gitignore", and "Choose a license" **unselected** (since we have already created these locally).
-5. Click **"Create repository"**.
-
-### Step 3: Add Remote and Push
-Copy and run the commands from your new GitHub repository page:
-```bash
-# Rename the default branch to main
-git branch -M main
-
-# Link your local repository to your remote GitHub repository
-git remote add origin https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
-
-# Push your code to the remote repository
-git push -u origin main
-```
